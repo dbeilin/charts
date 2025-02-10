@@ -141,6 +141,8 @@ config:
   extraArgs: []
   # -- DEBUG environment variable
   debug: false
+  # -- a list of escaped comma separated custom tags to add to falco events, syntax is "tag1,tag2"
+  customtags: ""
   # -- a list of escaped comma separated custom fields to add to falco events, syntax is "key:value\,key:value"
   customfields: ""
   # -- a list of escaped comma separated Go templated fields to add to falco events, syntax is "key:template\,key:template"
